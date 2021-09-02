@@ -217,10 +217,6 @@ i.fab.fa-telegram-plane {
     z-index: 0;
 }
 
-.col-12{
-    z-index: 1;
-}
-
 .input_wrapper input , .input_wrapper textarea{
     background-color: transparent;
     outline: none;
