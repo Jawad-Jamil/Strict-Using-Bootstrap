@@ -57,7 +57,8 @@ p{
 }
 
 .slider_p{
-    line-height: 4;
+    padding: 15px 10px;
+    text-align: center;
 }
 
 .slider a{
@@ -88,7 +89,6 @@ p{
     background-color: #F6F9F9;
     margin: 0px;
     padding: 40px 0px;
-    height: 230px;
 }
 
 .simple div{
@@ -108,12 +108,12 @@ p{
 }
 
 .card_wrapper{
-    height: 230px;
     text-align: center;
+    padding: 20px 10px;
 }
 
 .card_wrapper > div{
-    padding: 40px 0px;
+    padding: 10px 0px;
 }
 
 .card_wrapper div i{
@@ -159,13 +159,10 @@ i.fab.fa-telegram-plane {
 }
 
 .gallary_wrapper .img_wrapper{
-    height: 260px;
-    width: 360px;
     position: relative;
 }
 
 .gallary_wrapper {
-    height: 600px;
     cursor: pointer;
     padding-top: 50px;
 }
@@ -173,14 +170,15 @@ i.fab.fa-telegram-plane {
 .img_wrapper img{
     height: 100%;
     width: 100%;
+    padding: 9px;
 }
 
 .overly{
     position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
+    top: 9px;
+    left: 9px;
+    height: calc(100% - 17px);
+    width: calc(100% - 17px);
     background-color: #0086da;
     opacity: 0;
     transition: 0.3s;
@@ -214,7 +212,6 @@ i.fab.fa-telegram-plane {
     width: 100%;
     background-color: #2A354A;
     opacity: 0.9;
-    z-index: 0;
 }
 
 .input_wrapper input , .input_wrapper textarea{
@@ -295,4 +292,25 @@ i.google{
 i.linked{
     padding-left: 12px;
     padding-right: 12px;
+}
+
+div.lefting{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: all;
+    transition: 0.3s
+}
+
+i.fas.fa-align-left{
+    display: none;
+}
+
+.lgo_wrp{
+    width: 25px;
+    padding-right: 0px;
+}
+
+.menus_wrapper{
+    cursor: pointer;
 }

@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- CSS Style -->
     <link rel="stylesheet" href="style.css">
-
+    <!-- responsive -->
+    <link rel="stylesheet" href="responsive.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -17,9 +18,9 @@
     <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container">
+    <div class="container top_menu_wrapper">
         <div class="top_menu row justify-content-between d-flex align-items-center">
-            <div class="col-4 d-flex align-items-center">
+            <div class="lgo_wrp col-4 flex-wrap d-flex align-items-center">
                 <div class="logo d-inline-flex flex-wrap">
                     <div class="blue_lgo w-50"></div>
                     <div class="blc_lgo w-50"></div>
@@ -30,7 +31,10 @@
                 <div class="text">Strict</div>
             </div>
 
-            <div class="col-4">
+
+            <i class="fas fa-align-left"></i>
+
+            <div class="menus_wrapper col-lg-4 col-md-6 col-sm-8">
                 <div class="menus d-inline-flex justify-content-between w-100">
                     <div class="menu_item">Home</div>
                     <div class="menu_item">About</div>
@@ -60,20 +64,20 @@
 
     <div class="container">
         <div class="card_wrapper row d-flex flex-wrap justify-content-between">
-            <div class="col-3">
+            <div class="col-md-3 col-sm-12">
                 <div class="icon_wrapper"><i class="fas fa-mobile-alt"></i></div>
                 <h5>Optimized for all devices</h5>
                 <p>STRICT has been designed to be fully responsive on all devices</p>
             </div>
 
 
-            <div class="col-3">
+            <div class="col-md-3 col-sm-12">
                 <div class="icon_wrapper"><i class="fab fa-telegram-plane"></i></div>
                 <h5>Clean & Minimal Design</h5>
                 <p>This multipurpose theme is especially created to be used for different projects.</p>
             </div>
 
-            <div class="col-3">
+            <div class="col-md-3 col-sm-12">
                 <div class="icon_wrapper"><i class="fas fa-bullhorn"></i></div>
                 <h5>Font Awesome Icon</h5>
                 <p>This multipurpose theme is especially created to be used for different projects.</p>
@@ -88,7 +92,7 @@
             <p class="sec_p">Contact me if you like my work</p>
 
             <div class="gallary_wrapper d-flex flex-wrap justify-content-between">
-                <div class="img_wrapper">
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic1.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -100,7 +104,7 @@
                 </div>
 
                 
-                <div class="img_wrapper">
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic2.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -111,7 +115,7 @@
                     </div>
                 </div>
 
-                <div class="img_wrapper">
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic3.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -122,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="img_wrapper">
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic4.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -133,7 +137,7 @@
                     </div>
                 </div>
 
-                <div class="img_wrapper">
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic5.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -143,8 +147,8 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="img_wrapper">
+ 
+                <div class="img_wrapper col-xl-4 p-0 col-sm-6 col-md-4">
                     <img src="Images/pic1.png" alt="pic">
 
                     <div class="overly d-flex justify-content-center align-items-center">
@@ -166,7 +170,7 @@
             <div class="col-12 text-center">
                 <h4 class="sec_h stay_h">Stay with us</h4>
                 <p class="sec_p stay_p">We ensure quailty & support</p>
-                <div class="input_wrapper col-4 m-auto">
+                <div class="input_wrapper col-md-5 col-sm-10 m-auto">
                     <input class="w-100" type="text" placeholder="Full Name">
                     <input class="w-100" type="email" placeholder="Email Address">
                     <textarea class="w-100" placeholder="Message"></textarea>
@@ -194,5 +198,6 @@
         </div>
     </div>
 
+    <script src="custom.js"></script>
 </body>
 </html>
