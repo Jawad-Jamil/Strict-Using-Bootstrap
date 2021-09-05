@@ -13,6 +13,7 @@
         background-color: #222222;
         color: #ffffff;
         opacity: 0;
+        height: 0px;
         visibility: hidden;
         pointer-events: all;
     }
