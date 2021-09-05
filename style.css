@@ -299,7 +299,8 @@ div.lefting{
     opacity: 1;
     visibility: visible;
     pointer-events: all;
-    transition: 0.3s
+    transition: 0.3s;
+    height: fit-content;
 }
 
 i.fas.fa-align-left{
