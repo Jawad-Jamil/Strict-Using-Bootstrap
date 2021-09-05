@@ -299,8 +299,7 @@ div.lefting{
     opacity: 1;
     visibility: visible;
     pointer-events: all;
-    transition: 0.3s;
-    height: fit-content;
+    transition: 0.3s
 }
 
 i.fas.fa-align-left{
@@ -314,4 +313,16 @@ i.fas.fa-align-left{
 
 .menus_wrapper{
     cursor: pointer;
+}
+
+a.nav-link {
+    color: #222222 !important;
+}
+
+#nav, #nav div.container , nav.navbar.navbar-expand-lg.navbar-light.bg-white  {
+    height: 70px;
+}
+
+.navbar{
+    padding: 0px !important;
 }

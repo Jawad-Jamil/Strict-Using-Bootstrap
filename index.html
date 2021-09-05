@@ -7,6 +7,8 @@
     <title>Strict</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- In <head> after the Bootstrap CSS. -->
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
     <!-- CSS Style -->
     <link rel="stylesheet" href="style.css">
     <!-- responsive -->
@@ -18,33 +20,59 @@
     <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container top_menu_wrapper">
-        <div class="top_menu row justify-content-between d-flex align-items-center">
-            <div class="lgo_wrp col-4 flex-wrap d-flex align-items-center">
-                <div class="logo d-inline-flex flex-wrap">
-                    <div class="blue_lgo w-50"></div>
-                    <div class="blc_lgo w-50"></div>
-                    <div class="blc_lgo w-50"></div>
-                    <div class="blue_lgo w-50"></div>
-                </div>
+            <div id="nav">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                        <div class="container-fluid">
 
-                <div class="text">Strict</div>
+                            <div class="top_menu justify-content-between d-flex align-items-center col-12">
+                                <div class="lgo_wrp col-8 flex-wrap d-flex align-items-center">
+                                    <div class="logo d-inline-flex flex-wrap">
+                                        <div class="blue_lgo w-50"></div>
+                                        <div class="blc_lgo w-50"></div>
+                                        <div class="blc_lgo w-50"></div>
+                                        <div class="blue_lgo w-50"></div>
+                                    </div>
+                    
+                                    <div class="text">Strict</div>
+                                </div>
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
 
 
-            <i class="fas fa-align-left"></i>
 
-            <div class="menus_wrapper col-lg-4 col-md-6 col-sm-8">
-                <div class="menus d-inline-flex justify-content-between w-100">
-                    <div class="menu_item">Home</div>
-                    <div class="menu_item">About</div>
-                    <div class="menu_item">Service</div>
-                    <div class="menu_item">Portfolio</div>
-                    <div class="menu_item">Contact</div>
-                </div>
-            </div>
-        </div>
-    </div>
+        <!-- </div>
+    </div> -->
 
     <div class="slider d-flex align-items-center justify-content-center flex-wrap flex-column">
         <div class="slider_text">Strict</div>
@@ -198,6 +226,14 @@
         </div>
     </div>
 
-    <script src="custom.js"></script>
+<script src="custom.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"
+        integrity="sha512-NWNl2ZLgVBoi6lTcMsHgCQyrZVFnSmcaa3zRv0L3aoGXshwoxkGs3esa9zwQHsChGRL4aLDnJjJJeP6MjPX46Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+    </script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+
 </body>
 </html>
